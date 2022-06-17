@@ -12,7 +12,7 @@ const initialState = {
   data: [],
 };
 
-const reducer = (
+export const reducer = (
   state: RepositoriesState = initialState,
   action: Action
 ): RepositoriesState => {
@@ -39,5 +39,3 @@ const reducer = (
       return state;
   }
 };
-
-export default reducer;
